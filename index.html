@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Đăng nhập</h1>
+            <form name="myform" onsubmit="return validateFormsignin()">
+                <div class="textbox">
+                    <input id="usernameSignin" type="text" placeholder="Username" />
+                </div>
+                <div class="textbox2">
+                    <input id="passwordSignin" type="password" placeholder="Password"/>
+                </div>
+                <div class="pass">Forgot password?</div>
+                <div class="textbox3">
+                    <button type="textbox" value="submit">Login</button> 
+                </div>
+                <div class="signup">
+                    Dont have account? <a href="#">Sign up</a>
+                </div>
+            
+            </form>
+        </div>
+ <script src="main.js"></script>   
+</body>
+</html>
